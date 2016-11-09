@@ -4,7 +4,7 @@ html {
 
 
 body {
-    background-img: http://cdn.wallpapersafari.com/87/26/2fNW0X.jpg;
+
     margin: 0;
 
     font: 16px / 1 serif;
@@ -46,7 +46,7 @@ flex-direction: column;
 .right {
   display: flex;
 }
-
+/*come back to this&review*/
 main {
   max-width: 42em;
   margin: 0 auto;
