@@ -2,23 +2,20 @@ html {
   text-size-adjust: 100%;
 }
 
-
 body {
+  margin: 0;
+  font: 16px / 1 serif;
+  font-family: serif;
+}
 
-    margin: 0;
-
-    font: 16px / 1 serif;
-  }
-  h2 {
-    font-family: serif;
-  }
 ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 2px;
   border: #a9976c	solid;
-  border-top: 3px solid black;
+  border-radius: 1px;
   max-width: 42em;
   margin: 0 auto;
 }
@@ -35,21 +32,34 @@ a:visited {
   color: black;
 }
 
+a:hover {
+  color: #fff;
 }
+
 .gallery {
   display: flex;
-flex-direction: column;
+  flex-direction: column;
 }
-.left {
-  display: flex;
-}
-.right {
-  display: flex;
-}
-/*come back to this&review*/
+
+/* come back to this&review */
+
 main {
   max-width: 42em;
   margin: 0 auto;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 footer {
@@ -62,6 +72,7 @@ footer div {
   margin: 0 0.5em;
   flex: 1;
 }
+
 .new {
   color: red;
 }
